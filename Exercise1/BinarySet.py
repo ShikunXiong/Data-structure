@@ -1,20 +1,20 @@
 import time
 import Exercise1.ProcessFile as pf
 
-class Node:
+class BinNode:
     def __init__(self, val):
         self.val = val
         self.next = None
 
-class LinkedList:
-    def __init__(self, head):
-        self.head = head
+class BinSet:
+    def __init__(self, root):
+        self.head = root
 
     def add(self, word, w):
         p = self.head
         start = time.clock()
         if self.contains(word) == False:
-            n = Node(word)
+            n = BinNode(word)
             n.next = self.head
             self.head = n
             end = time.clock()
@@ -36,12 +36,12 @@ class LinkedList:
         p = self.head
         while p != None:
             p = p.next
-            count+=1
+            count += 1
         return count
 
-def testLinked():
+def testBin():
     f = open("pride-and-prejudice.txt", encoding='utf-8-sig')
-    w = open("LinkInsertTime.csv", 'a', encoding='utf-8')
+    w = open("BinInsertTime.csv", 'a', encoding='utf-8')
     hasHead = False
     for line in f.readlines():
         line = line.strip("\n")
@@ -50,19 +50,17 @@ def testLinked():
             if item != " " and item:
                 if hasHead == False:
                     hasHead = True
-                    node = Node(item)
-                    link = LinkedList(node)
-                if link.contains(item) == False:
-                    link.add(item, w)
-    return link
+                    node = BinNode(item)
+                    Binset = BinSet(node)
+                if Binset.contains(item) == False:
+                    Binset.add(item, w)
+    return Binset
 
-def compare(link):
+def compare(Binset):
     f = open("words-shuffled.txt", encoding='utf-8-sig')
     count = 0
     for line in f.readlines():
         line = line.strip("\n")
-        if link.contains(line) == False:
+        if Binset.contains(line) == False:
             count += 1
     return count
-
-
