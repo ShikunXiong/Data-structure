@@ -60,6 +60,7 @@ def compare(Hashset):
     for line in f.readlines():
         line = line.strip("\n")
         if Hashset.contains(line) == False:
+            print(line)
             count += 1
     f.close()
     return count
