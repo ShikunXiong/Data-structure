@@ -68,14 +68,12 @@ def merge(left, right):
     return result
 
 def mergesort(list):
-    start = time.clock()
     if len(list) <= 1:
         return list
     num = len(list) // 2
     left = mergesort(list[:num])
     right = mergesort(list[num:])
-    end = time.clock()
-    return end-start, merge(left, right)
+    return merge(left, right)
 
 #快速排序
 def qsort(left, right, nums):
@@ -108,13 +106,16 @@ if __name__ == "__main__":
         line.strip("\n")
         list += pf.processLine(line)
     # sort
-    t, s = selectionsort(list)
-    print("time: " + str(t) + "\n")
+    start = time.clock()
+    s = mergesort(list)
+    end = time.clock()
+    print("time: " + str(end-start) + "\n")
     f.close()
 
 """
 quick 3.303799
 heap 1.538304
 insert 1133.847481
-select 
+select 1275.23503442
+merge 1.67988048
 """

@@ -1,9 +1,12 @@
-#  Convert from an adjacency matrix to adjacency lists
+# Vertices: n
+# Edges: m
+# Convert from an adjacency matrix to adjacency lists
 def matrixToList(arr):
+    # time complexity: O(n^2)
     dic = {}
     size = len(arr)
     for i in range(size-1):
-        for j in range(i+1,size):
+        for j in range(i+1, size):
             if arr[i][j] == 1:
                 dic.setdefault(i,[])
                 dic.setdefault(j, [])
@@ -13,6 +16,7 @@ def matrixToList(arr):
 
 # Convert an adjacency list to an incidence matrix
 def listToIncidence(link):
+    # time complexity: O(m*n + m)
     vertices = len(link)
     dic = {}
     for k, l in link.items():
@@ -34,6 +38,7 @@ def listToIncidence(link):
 
 # Convert from an incidence matrix to adjacency lists.
 def incidenceToliist(matrix):
+    # time complexity: O(m*n + m + n)
     dic = {}
     col = len(matrix[0])
     row = len(matrix)
@@ -49,6 +54,7 @@ def incidenceToliist(matrix):
     for i in range(len(result)):
         result[i][i] = 1
     return result
+
 
 if __name__ == "__main__":
     arr = [[1,1,1,0,0],
