@@ -1,37 +1,34 @@
 import Exercise1.LinkedListSet as ll
 import Exercise1.ProcessFile as pf
+import time
 
 class hashSet:
     def __init__(self):
-        self.hashmap = [None]*2
+        self.hashmap = [None]*300
 
     def contains(self, word):
-        index = abs(hash(word)) % 2
+        index = abs(hash(word)) % 300
         link = self.hashmap[index]
         if link is None:
             return False
         return link.contains(word)
 
-    def add(self, word):
+    def add(self, word, w):
+        start = time.clock()
         if self.contains(word) is False:
-            index = abs(hash(word)) % 2
+            index = abs(hash(word)) % 300
             link = self.hashmap[index]
-            a = word
             if link is None:
-                m = 1
-                print("link is none")
                 node = ll.Node(word)
                 link = ll.LinkedList(node)
-                m = 1
                 self.hashmap[index] = link
-                m = 1
             else:
-                print('link exists')
-                m = 1
                 link.addHashNode(word)
+            end = time.clock()
+            w.write(str(self.size() - 1) + "," + str(end - start) + "\n")
             return True
+
         else:
-            print('already there')
             return False
 
     def size(self):
@@ -42,19 +39,27 @@ class hashSet:
             if link is not None:
                 l += 1
                 count += link.size()
-        print("有多少链表" + str(l))
         return count
 
 def testSet():
     f = open("pride-and-prejudice.txt", mode='r', encoding='utf-8-sig')
+    w = open("HashInsertTime.csv", 'a', encoding='utf-8')
     hashset = hashSet()
     for line in f.readlines():
         line = line.strip("\n")
         arr = pf.processLine(line)
         for item in arr:
             if item != " " and item:
-                hashset.add(item)
+                hashset.add(item, w)
     a = 1
-    print(hashset.size())
     return hashset
 
+def compare(Hashset):
+    f = open("words-shuffled.txt", mode='r', encoding='utf-8-sig')
+    count = 0
+    for line in f.readlines():
+        line = line.strip("\n")
+        if Hashset.contains(line) == False:
+            count += 1
+    f.close()
+    return count

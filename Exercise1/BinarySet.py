@@ -11,7 +11,6 @@ class BinSet:
         self.head = root
 
     def add(self, word, w):
-        p = self.head
         start = time.clock()
         if self.contains(word) == False:
             n = BinNode(word)
