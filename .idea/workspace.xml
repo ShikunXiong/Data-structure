@@ -3,9 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="9a2f115f-dd66-4503-ac85-d9a0a35fca8e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exercise1/HashInsertTime.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise1/HashInsertTime.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exercise1/HashSet.py" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise1/HashSet.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Exercise1/MainTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise1/MainTest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercise3/Converts.py" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise3/Converts.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,12 +13,13 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/DataStructure$ttest.coverage" NAME="ttest Coverage Results" MODIFIED="1570501683642" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exercise1" />
     <SUITE FILE_PATH="coverage/DataStructure$Sort.coverage" NAME="Sort Coverage Results" MODIFIED="1569997737788" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exercise2" />
     <SUITE FILE_PATH="coverage/DataStructure$tt.coverage" NAME="tt Coverage Results" MODIFIED="1569971344342" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exercise2" />
     <SUITE FILE_PATH="coverage/DataStructure$M3_3_2_.coverage" NAME="M3(3-2) Coverage Results" MODIFIED="1569878408824" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/DataStructure$Converts.coverage" NAME="Converts Coverage Results" MODIFIED="1569981935147" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exercise3" />
     <SUITE FILE_PATH="coverage/DataStructure$traverseGraph.coverage" NAME="traverseGraph Coverage Results" MODIFIED="1570049985389" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exercise4" />
-    <SUITE FILE_PATH="coverage/DataStructure$MainTest.coverage" NAME="MainTest Coverage Results" MODIFIED="1570038736034" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exercise1" />
+    <SUITE FILE_PATH="coverage/DataStructure$MainTest.coverage" NAME="MainTest Coverage Results" MODIFIED="1570502097768" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exercise1" />
     <SUITE FILE_PATH="coverage/DataStructure$M4.coverage" NAME="M4 Coverage Results" MODIFIED="1569624265990" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="DatabaseView">
@@ -40,42 +40,43 @@
     <session id="765896541">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="10" />
+          <entry key="project.closed" value="21" />
           <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.10" value="1" />
-          <entry key="project.open.time.11" value="1" />
-          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.11" value="2" />
+          <entry key="project.open.time.13" value="2" />
           <entry key="project.open.time.14" value="1" />
-          <entry key="project.open.time.8" value="2" />
-          <entry key="project.open.time.9" value="4" />
-          <entry key="project.opened" value="11" />
+          <entry key="project.open.time.8" value="7" />
+          <entry key="project.open.time.9" value="5" />
+          <entry key="project.opened" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="12174" />
+          <entry key="py" value="13724" />
           <entry key="txt" value="120" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="120" />
-          <entry key="Python" value="12174" />
+          <entry key="Python" value="13724" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="LinkInsertTime" value="7" />
-          <entry key="csv" value="11" />
-          <entry key="py" value="37" />
+          <entry key="csv" value="12" />
+          <entry key="py" value="48" />
           <entry key="txt" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSV" value="11" />
+          <entry key="CSV" value="12" />
           <entry key="PLAIN_TEXT" value="27" />
-          <entry key="Python" value="37" />
+          <entry key="Python" value="48" />
         </counts>
       </usages-collector>
     </session>
@@ -83,13 +84,35 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Exercise4/traverseGraph.py">
+        <entry file="file://$PROJECT_DIR$/Exercise1/BinarySet.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="51" column="9" selection-start-line="51" selection-start-column="9" selection-end-line="51" selection-end-column="9" />
+            <state relative-caret-position="197">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Exercise1/BinSet.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="66" column="16" lean-forward="true" selection-start-line="66" selection-start-column="16" selection-end-line="66" selection-end-column="16" />
               <folding>
-                <marker date="1570050018077" expanded="true" signature="34:206" ph="..." />
-                <marker date="1570050018077" expanded="true" signature="548:759" ph="..." />
+                <marker date="1570502533205" expanded="true" signature="169:170" ph="..." />
+                <marker date="1570502533205" expanded="true" signature="199:208" ph="..." />
+                <marker date="1570502533205" expanded="true" signature="1032:1033" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Exercise1/MainTest.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="29">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+              <folding>
+                <element signature="e#0#36#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -125,11 +148,13 @@
         <option value="$PROJECT_DIR$/Exercise2/ProcessFile.py" />
         <option value="$PROJECT_DIR$/Exercise2/aaa.txt" />
         <option value="$PROJECT_DIR$/Exercise2/tt.py" />
-        <option value="$PROJECT_DIR$/Exercise3/Converts.py" />
         <option value="$PROJECT_DIR$/Exercise2/Sort.py" />
-        <option value="$PROJECT_DIR$/Exercise1/MainTest.py" />
         <option value="$PROJECT_DIR$/Exercise1/HashSet.py" />
         <option value="$PROJECT_DIR$/Exercise4/traverseGraph.py" />
+        <option value="$PROJECT_DIR$/Exercise3/Converts.py" />
+        <option value="$PROJECT_DIR$/Exercise1/ttest.py" />
+        <option value="$PROJECT_DIR$/Exercise1/BinSet.py" />
+        <option value="$PROJECT_DIR$/Exercise1/MainTest.py" />
       </list>
     </option>
   </component>
@@ -140,9 +165,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-7" />
-    <option name="width" value="697" />
-    <option name="height" value="735" />
+    <option name="x" value="10" />
+    <option name="y" value="20" />
+    <option name="width" value="1346" />
+    <option name="height" value="688" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -150,7 +176,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -161,12 +186,23 @@
             <path>
               <item name="DataStructure" type="b2602c69:ProjectViewProjectNode" />
               <item name="DataStructure" type="462c0819:PsiDirectoryNode" />
-              <item name="Exercise4" type="462c0819:PsiDirectoryNode" />
+              <item name="Exercise1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DataStructure" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DataStructure" type="462c0819:PsiDirectoryNode" />
+              <item name="Exercise2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DataStructure" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DataStructure" type="462c0819:PsiDirectoryNode" />
+              <item name="Exercise3" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -194,7 +230,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.traverseGraph">
+  <component name="RunManager" selected="Python.MainTest">
     <configuration name="Converts" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="DataStructure" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -283,7 +319,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="tt" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="ttest" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="DataStructure" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -291,12 +327,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Exercise2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Exercise1" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Exercise2/tt.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Exercise1/ttest.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -308,17 +344,17 @@
     <list>
       <item itemvalue="Python.MainTest" />
       <item itemvalue="Python.Sort" />
-      <item itemvalue="Python.tt" />
       <item itemvalue="Python.Converts" />
       <item itemvalue="Python.traverseGraph" />
+      <item itemvalue="Python.ttest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.traverseGraph" />
         <item itemvalue="Python.MainTest" />
+        <item itemvalue="Python.ttest" />
+        <item itemvalue="Python.traverseGraph" />
         <item itemvalue="Python.Sort" />
         <item itemvalue="Python.Converts" />
-        <item itemvalue="Python.tt" />
       </list>
     </recent_temporary>
   </component>
@@ -345,14 +381,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22617246" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26701966" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3295082" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.56557375" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5032787" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.46885246" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -386,20 +423,6 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Exercise1/LinkInsertTime" />
     <entry file="file://$PROJECT_DIR$/Exercise1/aaa.txt" />
-    <entry file="file://$PROJECT_DIR$/Exercise1/BinInsertTime.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" column="10" lean-forward="true" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Exercise1/BinarySet.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Exercise1/HashInsertTime.csv">
       <provider selected="true" editor-type-id="text-editor" />
       <provider editor-type-id="csv-text-editor" />
@@ -426,34 +449,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Exercise1/HashSet.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="62" column="22" selection-start-line="62" selection-start-column="22" selection-end-line="62" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Exercise2/Sort.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="989">
-          <caret line="114" column="3" lean-forward="true" selection-start-line="114" selection-start-column="3" selection-end-line="114" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Exercise1/LinkedListSet.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1320">
-          <caret line="56" column="24" selection-start-line="56" selection-start-column="24" selection-end-line="56" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-            <marker date="1569916149487" expanded="true" signature="60:65" ph="..." />
-            <marker date="1569916149487" expanded="true" signature="156:161" ph="..." />
-            <marker date="1569916149487" expanded="true" signature="592:693" ph="..." />
-            <marker date="1569916149487" expanded="true" signature="1087:1088" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Exercise2/ProcessFile.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="384">
@@ -468,10 +463,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
-          <folding>
-            <marker date="1569903773373" expanded="true" signature="121:122" ph="..." />
-            <marker date="1569903773373" expanded="true" signature="121:126" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -482,13 +473,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Exercise1/MainTest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="23" column="43" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/M4.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
@@ -496,27 +480,91 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Exercise3/Converts.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1003">
-          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
-          <folding>
-            <marker date="1569993931606" expanded="true" signature="414:415" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Exercise2/pride-and-prejudice.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/Exercise3/Converts.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exercise1/BinInsertTime.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exercise1/ttest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="15" lean-forward="true" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Exercise4/traverseGraph.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="51" column="9" selection-start-line="51" selection-start-column="9" selection-end-line="51" selection-end-column="9" />
+        <state relative-caret-position="653">
+          <caret line="48" column="20" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="20" />
           <folding>
             <marker date="1570050018077" expanded="true" signature="34:206" ph="..." />
             <marker date="1570050018077" expanded="true" signature="548:759" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exercise2/Sort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2280">
+          <caret line="95" column="24" selection-start-line="95" selection-start-column="24" selection-end-line="95" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exercise1/HashSet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1440">
+          <caret line="62" column="22" selection-start-line="62" selection-start-column="22" selection-end-line="62" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exercise1/LinkedListSet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1104">
+          <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exercise1/BinSet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="66" column="16" lean-forward="true" selection-start-line="66" selection-start-column="16" selection-end-line="66" selection-end-column="16" />
+          <folding>
+            <marker date="1570502533205" expanded="true" signature="169:170" ph="..." />
+            <marker date="1570502533205" expanded="true" signature="199:208" ph="..." />
+            <marker date="1570502533205" expanded="true" signature="1032:1033" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exercise1/MainTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exercise1/BinarySet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>

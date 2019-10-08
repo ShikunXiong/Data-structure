@@ -14,6 +14,7 @@ def matrixToList(arr):
                 dic[j].append(i)
     return dic
 
+
 # Convert an adjacency list to an incidence matrix
 def listToIncidence(link):
     # time complexity: O(m*n + m)
@@ -35,6 +36,7 @@ def listToIncidence(link):
             matrix[v][edge] = 1
         edge += 1
     return matrix
+
 
 # Convert from an incidence matrix to adjacency lists.
 def incidenceToliist(matrix):

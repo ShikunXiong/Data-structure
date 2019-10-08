@@ -1,6 +1,7 @@
 import Exercise1.LinkedListSet as ll
 import Exercise1.BinarySet as bs
 import Exercise1.HashSet as hs
+import Exercise1.BinSet as bb
 
 if __name__ == "__main__":
 
@@ -18,9 +19,12 @@ if __name__ == "__main__":
     print("miss2 = " + str(num_miss_2))
     """
 
-
+    """
     hashset = hs.testSet()
     num_miss_3 = hs.compare(hashset)
     print("size3 = " + str(hashset.size()))
     print("miss3 = " + str(num_miss_3))
-    
+    """
+
+    binset = bb.testBin()
+    num_miss_2 = bb.compare(binset)
